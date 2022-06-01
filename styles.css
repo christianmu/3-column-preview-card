@@ -49,6 +49,13 @@ button {
   border-radius: 25px;
   border: none;
   background-color: var(--gray-light);
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 1px solid var(--gray-light);
+  color: var(--gray-light);
+  background-color: transparent;
 }
 
 .cards {
