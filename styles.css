@@ -88,3 +88,13 @@ button {
 .luxury button {
   color: var(--cyan-very-dark);
 }
+
+@media screen and (min-width: 376px) {
+  main {
+    display: flex;
+    width: 920px;
+  }
+  p {
+    margin-bottom: 83px;
+  }
+}
